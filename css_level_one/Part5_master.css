@@ -1,0 +1,14 @@
+/* id > class > generic */
+
+li {
+    color: red;
+}
+
+.topitems {
+    color:blueviolet;
+}
+
+#two {
+    color: black;
+    border: 2px solid orange;
+}

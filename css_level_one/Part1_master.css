@@ -1,0 +1,27 @@
+/* classes in CSS always starts with a . */
+/* id always uses # */
+
+.firstDiv {
+    color: blueviolet;
+}
+
+.secondDiv {
+    color: orangered;
+}
+
+#singledout {
+    color: grey;
+}
+
+h3 + ul {
+    border: 4px dotted plum
+}
+
+/* all <a> in <li> */
+li a {
+    color:green;
+}
+
+li a[href="www.npr.org"] {
+    color:brown;
+}
