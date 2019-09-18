@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Form</title>
+</head>
+<body>
+    <!-- <form>
+        <p>Enter Email:</p>
+        <input type="email" name="useremail" value="email">
+        <input type="password" name="userpassword" value="">
+        <input type="submit" name="submit" value="Submit">
+    </form> -->
+    <form>
+        <label for="userInput">Enter Input:</label>
+        <!-- placeholder is like hint -->
+        <input id="userInput" type="text" name="" placeholder="Enter text here" required>
+        <input type="submit" name="submit" value="Submit">
+    </form>
+    <h1>Hotel Feedback Form</h1>
+    <form method="get">
+        <h3>Are you from US?</h3>
+        <!-- if both input share the same 'name' can turn radio buttons on and off -->
+        <label for="usa">Yes</label>
+        <input id="usa" type="radio" name="location" value="yes">
+        <label for="usa">No</label>
+        <input id="usa" type="radio" name="location" value="no">
+        <h2>How was the service?</h2>
+        <select name="stars">
+            <option value="5">Excellent</option>
+            <option value="4">Great</option>
+            <option value="3">Normal</option>
+            <option value="2">Mediocre</option>
+            <option value="1">Bad</option>
+        </select>
+        <h2>Any other feedback?</h2>
+        <textarea name="mytext" rows="7" cols="70"></textarea>
+        <input type="submit" name="submit" value="Submit">
+    </form>
+</body>
+</html>
