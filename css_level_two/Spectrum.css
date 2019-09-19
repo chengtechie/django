@@ -1,0 +1,44 @@
+p {
+    font-family: 'Gill Sans';
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.art {
+    margin: auto;
+}
+
+td {
+    border: 6px solid white;
+}
+
+#one {
+    background-color: #DAD2D8;
+    height: 200px;
+    width: 100px; 
+}
+
+#two {
+    background-color:#325FA2;
+    height: 200px;
+    width: 100px; 
+}
+
+#three {
+    background-color: #143642;
+    height: 200px;
+    width: 100px; 
+}
+
+#four {
+    background-color: #EC9A29;
+    height: 200px;
+    width: 100px; 
+}
+
+#five {
+    background-color: #a8202a;
+    height: 200px;
+    width: 100px; 
+}
